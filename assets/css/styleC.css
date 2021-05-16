@@ -1,0 +1,66 @@
+/* Font: Work sans
+Farben: #2e2e2e / #867772 / rgb(234, 204, 194) / #ebccc2 / #fff / rgb(115, 115, 115)  */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+/* ////////////////////////////////////////////////////////////////////////////////// */
+
+form
+{
+  font-family: 'Work Sans', sans-serif;
+  position: absolute;
+  top: 20vh;
+  left: 30vw;
+  height: 220px;
+  width: 300px;
+}
+
+.feedback-input 
+{
+  color:#867772;
+  font-weight:500;
+  font-size: .5rem;
+  border-radius: 2px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid rgb(234, 204, 194);
+  transition: all 0.3s;
+  padding: 4px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus 
+{ 
+  border:2px solid rgb(234, 204, 194); 
+}
+
+textarea 
+{
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+#btn
+{
+  width: 100%;
+  background:rgb(234, 204, 194);
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:#867772;
+  font-size:.5rem;
+  padding-top:10px;
+  padding-bottom:10px;
+  margin-top:-4px;
+  font-weight:300;
+}
+@media only screen and (max-width: 576px) {
+  form
+{
+  font-family: 'Work Sans', sans-serif;
+  position: absolute;
+  top: 55vh;
+  left: 10vw;
+}
+}

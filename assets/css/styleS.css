@@ -1,0 +1,101 @@
+/* Font: Work sans
+Farben: #2e2e2e / #867772 / rgb(234, 204, 194) / #ebccc2 / #fff / rgb(115, 115, 115)  */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+/* ////////////////////////////////////////////////////////////////////////////////// */
+body,html
+{
+    padding: 0 !important;
+}
+header>img
+{
+margin-left: 3%;
+}
+.imageSection
+{
+    width: 60%;
+    min-height: 100vh;
+    background-image: url(../img/section-composition4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+    overflow-y: hidden;
+    overflow-x: visible;
+}
+.shopText
+{
+    position: absolute;
+    top: 15vh;
+    left: 42vh;
+    width: 30vw;
+    word-wrap: break-word;
+    margin-left: 41vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 100!important;
+}
+.shopText img{
+    width: 30vw;
+
+}
+.shopText p
+{
+    margin-top: 5px;
+    padding-top: 5px;
+    font-size: .6rem;
+    color: rgb(115, 115, 115);
+}
+.shopText h1
+{
+    font-size: 1rem;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+.shopText h2
+{
+    color: rgb(115, 115, 115);
+    font-size: .7rem;
+    font-weight: 300;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.shopText span
+{
+    width: 30px;
+    border: 1px solid #fff;
+    background-color: rgb(234, 204, 194);
+    color: #2e2e2e;
+    font-size: .5rem;
+    text-align: center;
+    padding: 3px 4px;
+}
+.shop::before
+{   
+    width:28px;
+    height: 9.14px;
+    margin:0;
+    margin-right: 20px;
+    padding: 0;
+    width: 10px;
+    height: 10px;
+    margin-left: 1px;
+    margin-top: 1px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+@media only screen and (max-width: 576px) {
+    .imageSection{
+        width: 100%;
+        z-index: -1;
+    }
+    .shopText{
+    position: absolute;
+    top: 350px;
+    left: -20px;
+    }
+    .shopText img{
+        width: 70vw;
+    
+    }
+}

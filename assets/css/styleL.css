@@ -1,0 +1,75 @@
+/* Font: Work sans
+Farben: #2e2e2e / #867772 / rgb(234, 204, 194) / #ebccc2 / #fff / rgb(115, 115, 115)  */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap');
+/* ////////////////////////////////////////////////////////////////////////////////// */
+body,html
+{
+    padding: 0 !important;
+}
+header>img
+{
+margin-left: 3%;
+}
+.imageSection
+{
+    width: 60%;
+    min-height: 100vh;
+    background-image: url(../img/section-voyager.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+    overflow-y: hidden;
+    overflow-x: visible;
+}
+.loungerText
+{
+    position: absolute;
+    top: 15vh;
+    left: 38vh;
+    width: 30vw;
+    word-wrap: break-word;
+    margin-left: 41vw;
+    display: flex;
+    flex-direction: column;
+    z-index: 100!important;
+}
+.loungerText p
+{
+    font-size: .7rem;
+    color: rgb(115, 115, 115);
+}
+.loungerText h1
+{
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+.lounger::before
+{   
+    width:28px;
+    height: 9.14px;
+    margin:0;
+    margin-right: 20px;
+    padding: 0;
+    width: 10px;
+    height: 10px;
+    margin-left: 1px;
+    margin-top: 1px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+@media only screen and (max-width: 576px) {
+    .imageSection
+    {
+        width: 100%;
+    }
+    .loungerText
+    {
+        position: absolute;
+        top: 100px;
+        left: 20px;
+        display: flex;
+        flex-direction: column;
+        z-index: 100!important;
+    }
+  }

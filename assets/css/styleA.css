@@ -1,0 +1,76 @@
+/* Font: Work sans
+Farben: #2e2e2e / #867772 / rgb(234, 204, 194) / #ebccc2 / #fff / rgb(115, 115, 115)  */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+/* ////////////////////////////////////////////////////////////////////////////////// */
+main
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 3.9%;
+    padding-right: 3.9%;
+}
+main img
+{
+    width: 88vw;
+}
+header>img
+{
+margin-left: 3%;
+}
+article
+{
+    padding-top: 15%;
+    padding-bottom: 10%;
+    font-size: 1.2rem;
+    width: 30%;
+    font-weight: 300;
+    word-wrap: break-word;
+    letter-spacing: 1px;
+}
+.before::before
+{   
+    width:28px;
+    height: 9.14px;
+    margin:0;
+    margin-right: 20px;
+    padding: 0;
+    width: 10px;
+    height: 10px;
+    margin-left: 1px;
+    margin-top: 1px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.aboutSection
+{
+width: 100vw;
+padding-left: 10vw;
+}    
+.aboutSection article
+{
+    width:85vw;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.aboutSection> article img
+{
+    width:300px;
+    height: 250px;
+}
+.span
+{ 
+    font-size: .6rem;
+    font-weight: 200;
+    line-height: 15px;
+    width:31vw;
+    word-wrap:break-word;
+    display: flex;
+    flex-direction: column;
+}
+.span p
+{
+    color: rgb(115, 115, 115);
+}
