@@ -24,7 +24,7 @@ header>img
 margin-left: 3%;
 }
 nav{
-    width: 300px;
+    width: 500px;
     padding-right: 3%;
     z-index: 50;
 }
@@ -43,7 +43,7 @@ span{
 }
 a
 {
-    font-size: .6rem;
+    font-size: 0.8rem;
     text-decoration: none;
     color:  #867772;
     transition: color 1.2s ease-in-out ;

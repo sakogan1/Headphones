@@ -43,16 +43,16 @@ padding-left: 20vw;
 }
 article img
 {
-    width: 268px;
+    width: 375px;
 }
 .span
 {
     padding-top: 5%;
     padding-left: 2%;
-    font-size: .6rem;
+    font-size: .8rem;
     font-weight: 200;
     line-height: 15px;
-    width:31vw;
+    width:31%;
     word-wrap:break-word;
     display: flex;
     flex-direction: column;
@@ -68,7 +68,7 @@ article img
 {
     margin-top: 0;
     color: rgb(115, 115, 115) ;
-    font-size: .7rem;
+    font-size: .8rem;
     font-weight: 200;
 }
 .span p
@@ -92,7 +92,7 @@ letter-spacing: 2px;
 @media only screen and (max-width: 576px) {
     .inspirationSection
     {
-        padding-top: 20vh;
+        padding-top: 40vh;
     }
     article img
 {
